@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<!DOCTYPE ROYAL SYSTEM "Royal.dtd">
+<ROYAL>
+<HEAD/>
+<INDI id="I1">
+<NAME>John /Begood/ </NAME>
+<SEX>M</SEX>
+<FAMS id="F1"/>
+</INDI>
+<INDI id="I2">
+<NAME>Ada /Begood/ </NAME>
+<FAMS id="F1"/>
+</INDI>
+<INDI id="I3">
+<NAME>Fred /Begood/ </NAME>
+<FAMC id="F1"/>
+</INDI>
+<INDI id="I4">
+<NAME>Lea /Begood/ </NAME>
+<SEX>F</SEX>
+<FAMC id="F1"/>
+</INDI>
+<FAM id="F1">
+<HUSB id="I1"/>
+<WIFE id="I2"/>
+<CHIL id="I3"/>
+<CHIL id="I4"/>
+</FAM>
+</ROYAL>

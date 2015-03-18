@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="ROYAL">
+		<xsd:complexType>
+			<xsd:choice minOccurs="0" maxOccurs="unbounded">
+				<xsd:element ref="FAM"/>
+				<xsd:element ref="INDI"/>
+				<xsd:element ref="HEAD"/>
+				<xsd:element ref="SUBM"/>
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="HEAD"> 
+		<xsd:complexType>
+			<xsd:choice minOccurs="0" >
+				<xsd:element ref="SOUR" />
+				<xsd:element ref="DEST" />
+				<xsd:element ref="DATE" />
+				<xsd:element ref="FILE" />
+				<xsd:element ref="CHAR" />
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="FILE">
+		<xsd:complexType mixed="true" />
+	</xsd:element>
+	<xsd:element name="CHAR">
+		<xsd:complexType mixed="true" />
+	</xsd:element>
+	<xsd:element name="DATE">
+		<xsd:complexType mixed="true" />
+	</xsd:element>
+	<xsd:element name="SOUR">
+		<xsd:complexType mixed="true" />
+	</xsd:element>
+	<xsd:element name="DEST">
+		<xsd:complexType mixed="true" />
+	</xsd:element>
+
+	<xsd:element name="INDI">
+		<xsd:complexType>
+			<xsd:choice minOccurs="0" maxOccurs="unbounded">
+				<xsd:element ref="NAME" />
+				<xsd:element ref="BIRT" />
+				<xsd:element ref="BURI" />
+				<xsd:element ref="CHR" />
+				<xsd:element ref="DEAT" />
+				<xsd:element ref="FAMC" />
+				<xsd:element ref="FAMS" />
+				<xsd:element ref="SEX" />
+				<xsd:element ref="TITL" />
+				<xsd:element ref="REFN" />
+			</xsd:choice>
+			<xsd:attribute name="id" type="xsd:ID" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="BIRT">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="DATE" minOccurs="0" />
+				<xsd:element ref="PLAC" minOccurs="0" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="BURI">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="DATE" minOccurs="0" />
+				<xsd:element ref="PLAC" minOccurs="0" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="CHIL">
+		<xsd:complexType mixed="true">
+			<xsd:attribute name="id" type="xsd:string" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="CHR">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="DATE" minOccurs="0" />
+				<xsd:element ref="PLAC" minOccurs="0" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DEAT">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="DATE" minOccurs="0"/>
+				<xsd:element ref="PLAC" minOccurs="0" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DIV">
+		<xsd:complexType mixed="true" />
+	</xsd:element>
+	<xsd:element name="REFN">
+		<xsd:complexType mixed="true" />
+	</xsd:element>
+	<xsd:element name="FAMC">
+		<xsd:complexType mixed="true">
+				<xsd:attribute name="id" type="xsd:string" use="required" />
+		</xsd:complexType>	
+	</xsd:element>
+	<xsd:element name="FAMS">
+		<xsd:complexType>
+				<xsd:attribute name="id" type="xsd:string" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="HUSB">
+		<xsd:complexType mixed="true">
+			<xsd:attribute name="id" type="xsd:string" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="MARR">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="DATE" minOccurs="0" />
+				<xsd:element ref="PLAC" minOccurs="0" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="NAME">
+		<xsd:complexType mixed="true" />
+	</xsd:element>
+	<xsd:element name="PLAC">
+		<xsd:complexType mixed="true" />
+	</xsd:element>
+	<xsd:element name="SEX">
+		<xsd:complexType mixed="true" />
+	</xsd:element>
+	<xsd:element name="TITL">
+		<xsd:complexType mixed="true" />
+	</xsd:element>
+	<xsd:element name="WIFE">
+		<xsd:complexType mixed="true">
+			<xsd:attribute name="id" type="xsd:string" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="FAM"> 
+		<xsd:complexType>
+		<xsd:choice minOccurs="0" maxOccurs="unbounded">
+			<xsd:element ref="HUSB" />
+			<xsd:element ref="WIFE" />
+			<xsd:element ref="CHIL" />
+			<xsd:element ref="MARR" />
+			<xsd:element ref="DIV" />
+		</xsd:choice>
+		<xsd:attribute name="id" type="xsd:ID" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="SUBM"> 
+		<xsd:complexType>
+			<xsd:choice minOccurs="0" maxOccurs="unbounded">
+				<xsd:element ref="NAME" />
+				<xsd:element ref="ADDR" />
+				<xsd:element ref="PHON" />
+				<xsd:element ref="COMM" />
+			</xsd:choice>
+		<xsd:attribute name="id" type="xsd:ID" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="PHON">
+		<xsd:complexType mixed="true" />
+	</xsd:element>
+	<xsd:element name="ADDR"> 
+		<xsd:complexType mixed="true">
+			<xsd:choice minOccurs="0" maxOccurs="unbounded">
+				<xsd:element ref="CONT" />
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="COMM"> 
+		<xsd:complexType mixed="true">
+			<xsd:choice minOccurs="0" maxOccurs="unbounded">
+				<xsd:element ref="CONT" />
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="CONT">
+		<xsd:complexType mixed="true" />
+	</xsd:element>
+</xsd:schema>

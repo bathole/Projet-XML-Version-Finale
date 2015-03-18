@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<!DOCTYPE ROYAL SYSTEM "Royal.dtd">
+<ROYAL>
+<HEAD>
+<SOUR>FTW</SOUR>
+<DEST>PAF</DEST>
+<DATE>10 APR 1999 </DATE>
+<CHAR>ANSI</CHAR>
+<FILE>doe.ged</FILE>
+</HEAD>
+<INDI id="I01">
+<NAME>John /Doe/ </NAME>
+<SEX>M</SEX>
+<BIRT>
+<DATE>23 JAN 1961 </DATE>
+<PLAC>Australia</PLAC>
+</BIRT>
+<DEAT>
+<DATE>8 JUL 1988 </DATE>
+<PLAC>Scotland</PLAC>
+</DEAT>
+<FAMS id="F1"/>
+</INDI>
+<INDI id="I02">
+<NAME>Rosanna /Housewife/ </NAME>
+<SEX>F</SEX>
+<BIRT>
+<DATE>15 DEC 1968 </DATE>
+<PLAC>Canada</PLAC>
+</BIRT>
+<DEAT>
+<DATE>8 JUL 1988 </DATE>
+<PLAC>Scotland</PLAC>
+</DEAT>
+<FAMS id="F1"/>
+</INDI>
+<INDI id="I03">
+<NAME>Joe /Doe/ </NAME>
+<SEX>M</SEX>
+<BIRT>
+<DATE>15 JUN 1988 </DATE>
+<PLAC>United States </PLAC>
+</BIRT>
+<DEAT>
+<DATE>8 JUL 1988 </DATE>
+<PLAC>Scotland</PLAC>
+</DEAT>
+<FAMC id="F1"/>
+</INDI>
+<FAM id="F1">
+<HUSB id="I01"/>
+<WIFE id="I02"/>
+<CHIL id="I03"/>
+<MARR>
+<DATE>7 AUG 1987 </DATE>
+<PLAC>United States </PLAC>
+</MARR>
+</FAM>
+</ROYAL>

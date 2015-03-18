@@ -1,0 +1,25 @@
+body {
+	background-color: silver;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+	color: black;
+	margin: 30px;
+  	padding: 20px;
+	}
+
+a{	
+	text-decoration: none; 
+      }
+
+a:visited { 
+	color: #336600; 
+	}
+	
+ul{
+	color: gray;
+	}
+li{
+	color: gray;
+	}
+

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<!DOCTYPE ROYAL SYSTEM "Royal.dtd">
+<ROYAL>
+<HEAD/>
+<FAM id="F1">
+<HUSB id="I1"/>
+<WIFE id="I2"/>
+<CHIL id="I3"/>
+<CHIL id="I4"/>
+<MARR>
+<DATE>7 AUG 1987 </DATE>
+<PLAC>United States </PLAC>
+</MARR>
+</FAM>
+<FAM id="F2">
+<HUSB id="I3"/>
+<WIFE id="I5"/>
+<CHIL id="I7"/>
+<CHIL id="I9"/>
+<MARR>
+<DATE>7 APR 1997 </DATE>
+<PLAC>France</PLAC>
+</MARR>
+</FAM>
+<FAM id="F3">
+<HUSB id="I6"/>
+<WIFE id="I4"/>
+<CHIL id="I17"/>
+<CHIL id="I11"/>
+<CHIL id="I12"/>
+<CHIL id="I13"/>
+<MARR>
+<DATE>13 JUN 2001 </DATE>
+<PLAC>Italie</PLAC>
+</MARR>
+</FAM>
+<FAM id="F4">
+<HUSB id="I7"/>
+<WIFE id="I8"/>
+<CHIL id="I14"/>
+<CHIL id="I15"/>
+</FAM>
+<FAM id="F5">
+<HUSB id="I9"/>
+<WIFE id="I10"/>
+<CHIL id="I16"/>
+</FAM>
+<INDI id="I1">
+<NAME>JÈrÙme /Turing/ </NAME>
+<SEX>M</SEX>
+<FAMS id="F1"/>
+</INDI>
+<INDI id="I2">
+<NAME>Estelle /Knuth/ </NAME>
+<SEX>F</SEX>
+<FAMS id="F1"/>
+</INDI>
+<INDI id="I3">
+<NAME>Frederic /Turing/ </NAME>
+<SEX>M</SEX>
+<FAMC id="F1"/>
+<FAMS id="F2"/>
+</INDI>
+<INDI id="I5">
+<NAME>Caroline /Rabin/ </NAME>
+<SEX>F</SEX>
+<FAMS id="F2"/>
+</INDI>
+<INDI id="I4">
+<NAME>Julie /Turing/ </NAME>
+<SEX>F</SEX>
+<FAMC id="F1"/>
+<FAMS id="F3"/>
+</INDI>
+<INDI id="I6">
+<NAME>Nicolas /B¸chi/ </NAME>
+<SEX>M</SEX>
+<FAMS id="F3"/>
+</INDI>
+<INDI id="I7">
+<NAME>Arnaud /Turing/ </NAME>
+<SEX>M</SEX>
+<FAMC id="F2"/>
+<FAMS id="F4"/>
+</INDI>
+<INDI id="I8">
+<NAME>Laurence /Church/ </NAME>
+<SEX>F</SEX>
+<FAMS id="F4"/>
+</INDI>
+<INDI id="I9">
+<NAME>Manuel /Turing/ </NAME>
+<SEX>M</SEX>
+<FAMC id="F2"/>
+<FAMS id="F5"/>
+</INDI>
+<INDI id="I10">
+<NAME>Nicole /von Neumann/ </NAME>
+<SEX>F</SEX>
+<FAMS id="F5"/>
+</INDI>
+<INDI id="I11">
+<NAME>Dylan /B¸chi/ </NAME>
+<SEX>M</SEX>
+<FAMC id="F3"/>
+</INDI>
+<INDI id="I12">
+<NAME>SÈverine /B¸chi/ </NAME>
+<SEX>F</SEX>
+<FAMC id="F3"/>
+</INDI>
+<INDI id="I13">
+<NAME>Martine /B¸chi/ </NAME>
+<SEX>F</SEX>
+<FAMC id="F3"/>
+</INDI>
+<INDI id="I17">
+<NAME>Sylvain /B¸chi/ </NAME>
+<SEX>M</SEX>
+<FAMC id="F3"/>
+</INDI>
+<INDI id="I14">
+<NAME>FranÁoise /Turing/ </NAME>
+<SEX>F</SEX>
+<FAMC id="F4"/>
+</INDI>
+<INDI id="I15">
+<NAME>David /Turing/ </NAME>
+<SEX>M</SEX>
+<FAMC id="F4"/>
+</INDI>
+<INDI id="I16">
+<NAME>Alan /Turing/ </NAME>
+<SEX>M</SEX>
+<FAMC id="F5"/>
+</INDI>
+</ROYAL>

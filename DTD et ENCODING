@@ -1,0 +1,3 @@
+transformer.setOutputProperty(OutputKeys.ENCODING, "iso-8859-1");
+			transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+			transformer.setOutputProperty(OutputKeys.DOCTYPE_SYSTEM, "Royal.dtd");
